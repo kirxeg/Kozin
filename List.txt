@@ -1,0 +1,40 @@
+package sample.Classes;
+
+public class List {
+    private int id;
+    private List nextList;
+    private Queue[] arrayQueue;
+
+
+    public List(int id, List nextList, Queue[] arrayQueue) {
+        this.id = id;
+        this.nextList = nextList;
+        this.arrayQueue = arrayQueue;
+    }
+
+    public Queue[] getArrayQueue() {
+        return arrayQueue;
+    }
+
+    public void setArrayQueue(Queue[] arrayQueue) {
+        this.arrayQueue = arrayQueue;
+    }
+
+    public List getNextList() {
+
+        return nextList;
+    }
+
+    public void setNextList(List nextList) {
+        this.nextList = nextList;
+    }
+
+    public int getId() {
+
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+}

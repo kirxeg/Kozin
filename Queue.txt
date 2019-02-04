@@ -1,0 +1,29 @@
+package sample.Classes;
+
+public class Queue {
+    private int id;
+    private float workTime;
+
+
+    public Queue(int id, float workTime) {
+        this.id = id;
+        this.workTime = workTime;
+    }
+
+    public int getId() {
+
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public float getWorkTime() {
+        return workTime;
+    }
+
+    public void setWorkTime(float workTime) {
+        this.workTime = workTime;
+    }
+}

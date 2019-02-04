@@ -1,0 +1,24 @@
+package sample;
+
+import sample.Classes.List;
+
+public class Controller {
+    private List tList;
+    private float time;
+
+    private void addThreat() {
+
+    }
+
+    private void addProcess() {
+
+    }
+
+    private void removeThreat() {
+
+    }
+
+    private void removeProcess() {
+
+    }
+}
